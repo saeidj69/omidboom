@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* app/global.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  margin: 4px;
+}
+
+
+.navbar{
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark);
+  padding: 0 20px;
+  display: flex;
+  color: white;
+}
+
+
+
+  .svg {
+    width: 10rem;
+  }
+
+  .menu {
+    margin-right: 2.875rem;
+    width: 100%;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+  }
+
